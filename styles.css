@@ -1,0 +1,32 @@
+#container{
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+input{
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: large;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+}
+button:hover{
+    background-color: hsl(240, 100%, 70%);
+}
+button:active{
+    background-color: hsl(240, 100%, 80%);
+
+}
